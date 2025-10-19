@@ -40,7 +40,7 @@ patches:
 # Add to the nodes list here if you change the number of replicas in statefulset
 - target:
     kind: ConfigMap
-    name: nodelist
+    name: nodeslist
   patch: |-
     - op: replace
       path: /data/nodes
